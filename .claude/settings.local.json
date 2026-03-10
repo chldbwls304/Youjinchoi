@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:ygnoh0210.github.io)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(npm:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(npx tsc:*)",
+      "WebFetch(domain:youjinchois.notion.site)",
+      "WebFetch(domain:docs.google.com)"
+    ]
+  }
+}

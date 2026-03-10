@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Afacad Flux', sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent FOUC */
+#root {
+  display: contents;
+}
+
+/* Selection styling */
+::selection {
+  background: rgba(97, 83, 232, 0.2);
+}
+
+::-moz-selection {
+  background: rgba(97, 83, 232, 0.2);
+}
+
+/* Focus styling */
+:focus-visible {
+  outline: 2px solid rgba(97, 83, 232, 0.6);
+  outline-offset: 2px;
+}
+
+/* AOS animations */
+[data-aos="fade-up"] {
+  transform: translateY(16px) !important;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar-thumb {
+  background: rgba(97, 83, 232, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(97, 83, 232, 0.5);
+}
